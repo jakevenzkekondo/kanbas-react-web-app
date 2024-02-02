@@ -1,0 +1,56 @@
+.small-header {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.big-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-left {
+    font: white;
+}
+
+.icon-right {
+    font: white;
+}
+
+.modules {
+    display: flex;
+    justify-content: center;
+}
+
+.course-status-button {
+    background-color: lightgrey;
+    padding: 5px;
+    font: black;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 200px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.hamburger {
+    color: red;
+    font-size: x-large;
+    margin-left: 30px
+}
+
+.chevron {
+    font-size: x-large;
+    margin-right: 30px
+}
+
+.student-view-button {
+    background-color: lightgrey;
+    font: black;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 5px;
+    padding: 5px;
+}
