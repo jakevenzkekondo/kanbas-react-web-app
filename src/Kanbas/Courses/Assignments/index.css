@@ -1,0 +1,60 @@
+.top-button {
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 5px;
+    font: black;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid grey;
+
+    margin-right: 5px;
+    position: relative;
+    float: left;
+}
+
+.wide-button {
+    width: 100px;
+}
+
+.red-button {
+    background-color: red;
+}
+
+.wd-assignment-btn-grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wd-ass-search {
+    width: 50% !important;
+    margin-left: 15px;
+}
+
+.wd-assignment {
+    border-left-color: green !important;
+    border-left-width: 5px !important;
+}
+
+.wd-assignment-name {
+    width: 100px;
+}
+
+.wd-assignment-name>p {
+    color: grey;
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.wd-ass-search-input {
+    flex-grow: 1 !important;
+}
+
+.wd-top-home-button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.wd-color-black {
+    color: black;
+}

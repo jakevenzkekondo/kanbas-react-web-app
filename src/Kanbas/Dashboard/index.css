@@ -1,0 +1,27 @@
+.wd-dash-summary {
+    text-align: left;
+    margin-left: 94px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.wd-card-container {
+    margin-left: 10px
+}
+
+.card-title {
+    color: blue;
+}
+
+.card-text {
+    color: darkgray;
+    margin-bottom: 0px;
+}
+
+.wd-secondary-card-text {
+    font-size: 12px;
+}
+
+h2 {
+    color: black;
+}
