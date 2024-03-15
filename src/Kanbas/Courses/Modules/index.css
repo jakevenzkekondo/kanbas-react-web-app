@@ -49,7 +49,59 @@
     float: right;
 }
 
+.large-button {
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.small-button {
+    padding: 2px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    float: right;
+}
+
+#delete-button {
+    background-color: red;
+    color: white;
+}
+
+#edit-button {
+    background-color: green;
+    color: white;
+}
+
+#add-button {
+    background-color: green;
+    color: white;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#update-button {
+    background-color: blue;
+    color: white;
+}
+
 .red-background {
     background-color: red;
     color: white;
+}
+
+#modules-input {
+    border-radius: 5px;
+    padding: 5px;
+    width: 75%;
+}
+
+.buttons-div {
+    float: right;
+    border: none;
 }

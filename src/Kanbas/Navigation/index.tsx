@@ -1,6 +1,7 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, Route, Routes, useLocation } from "react-router-dom";
 import "./index.css";
 import { FaTachometerAlt, FaRegUserCircle, FaBook, FaRegCalendarAlt, FaInbox, FaHistory, FaPhotoVideo, FaArrowCircleRight, FaQuestion } from "react-icons/fa";
+import List from "../Courses/Modules/List";
 function KanbasNavigation() {
     const links = [
         { label: "Account", icon: <FaRegUserCircle className="fs-2 account" /> },
@@ -20,6 +21,9 @@ function KanbasNavigation() {
             {links.map((link, index) => (
                 <li key={index} className={pathname.includes(link.label) ? "wd-active" : ""}>
                     <Link to={`/Kanbas/${link.label}`}> {link.icon} {link.label} </Link>
+                    <Routes>
+                        <Route path="/Kanbas/:courseId" element={<List />} />
+                    </Routes>
                 </li>
             ))}
         </ul>
